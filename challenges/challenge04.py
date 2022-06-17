@@ -1,0 +1,16 @@
+# Create a script that reads the user input and shows your primitive type and all possible information about it.
+something = input('Type something: ')
+
+print('\nType: {}'.format(type(something)))
+print('Is alphanumeric? {}'.format(something.isalnum()))
+print('Is alphabetic? {}'.format(something.isalpha()))
+print('Is ASCII? {}'.format(something.isascii()))
+print('Is decimal? {}'.format(something.isdecimal()))
+print('Is digit? {}'.format(something.isdigit()))
+print('Is identifier? {}'.format(something.isidentifier()))
+print('Is lower? {}'.format(something.islower()))
+print('Is numeric? {}'.format(something.isnumeric()))
+print('Is printable? {}'.format(something.isprintable()))
+print('Is space? {}'.format(something.isspace()))
+print('Is title? {}'.format(something.istitle()))
+print('Is upper? {}'.format(something.isupper()))
