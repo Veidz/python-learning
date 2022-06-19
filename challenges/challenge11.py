@@ -4,5 +4,5 @@ wall_height = float(input('Enter the wall height: (m) '))
 
 wall_area = wall_width * wall_height
 
-print('Wall area: {}m'.format(wall_area))
+print('Wall area: {}m²'.format(wall_area))
 print('Amount of paint: {}l'.format(wall_area / 2))
